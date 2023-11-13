@@ -1,0 +1,18 @@
+import { useState } from 'react';
+
+import Todo from "./component/Todo";
+
+
+
+
+const Example = () => {
+  return (
+    <>
+    <h2>Reminder</h2>
+    <Todo />
+    </>
+  );
+};
+
+
+export default Example;
